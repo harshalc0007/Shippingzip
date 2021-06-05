@@ -30,7 +30,7 @@ public class ShippingResourceImpl implements ShippingResource {
     /**
      * API which take zip code data and calculate the range of zipcode data.
      * @param zipcodeData
-     * @return
+     * @return ist<ZipcodeData>.
      */
     @Override
     @PostMapping
